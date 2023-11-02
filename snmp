@@ -1,0 +1,4 @@
+set service snmp community public authorization 'ro'
+set service snmp community public network '172.16.1.0/24'
+set service snmp contact 'noc@wifian.id'
+set service snmp location 'Cyber1, Jakarta, Indonesia'
