@@ -1,0 +1,7 @@
+set qos policy rate-control 1Gbps bandwidth '1050mbit'
+set qos policy rate-control 1Gbps burst '15k'
+set qos policy rate-control 2Gbps bandwidth '2gbit'
+set qos policy rate-control 2Gbps burst '15k'
+
+set qos interface eth5.307 egress '1Gbps'
+set qos interface eth5.781 egress '2Gbps'
